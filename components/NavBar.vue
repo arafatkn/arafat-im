@@ -10,7 +10,7 @@
         <li class="nav-item scrollspy"><a href="#about" class="nav-link">About</a></li>
         <li class="nav-item scrollspy"><a href="#services" class="nav-link">Services</a></li>
         <li class="nav-item scrollspy"><a href="#experience" class="nav-link">Experience</a></li>
-        <li class="nav-item"><a href="/projects" class="nav-link">Projects</a></li>
+        <li class="nav-item scrollspy"><a href="#works" class="nav-link">Projects</a></li>
         <li class="nav-item"><a href="https://arafatkn.com" class="nav-link">Blog</a></li>
         <li class="nav-item scrollspy"><a href="#contact" class="nav-link">Contact</a></li>
       </ul>

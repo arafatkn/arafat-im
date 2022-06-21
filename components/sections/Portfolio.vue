@@ -6,7 +6,7 @@
 
       <div class="row portfolio-wrapper">
 
-        <div class="col-md-5 col-sm-6 grid-item NuxtJS  VueJS  Vuetify  SSR  PWA">
+        <div class="col-md-6 col-sm-6 grid-item NuxtJS  VueJS  Vuetify  SSR  PWA">
           <a href="#small-dialog-19" class="work-content">
             <div class="portfolio-item rounded shadow-dark">
               <div class="details">
@@ -29,7 +29,7 @@
           </div>
         </div>
 
-        <div class="col-md-5 col-sm-6 grid-item Laravel  Admin  E-commerce">
+        <div class="col-md-6 col-sm-6 grid-item Laravel  Admin  E-commerce">
           <a href="#small-dialog-20" class="work-content">
             <div class="portfolio-item rounded shadow-dark">
               <div class="details">
@@ -52,7 +52,7 @@
           </div>
         </div>
 
-        <div class="col-md-5 col-sm-6 grid-item Laravel  Admin  Exam  Live">
+        <div class="col-md-6 col-sm-6 grid-item Laravel  Admin  Exam  Live">
           <a href="#small-dialog-21" class="work-content">
             <div class="portfolio-item rounded shadow-dark">
               <div class="details">
@@ -75,7 +75,7 @@
           </div>
         </div>
 
-        <div class="col-md-5 col-sm-6 grid-item Laravel  PHP  Management">
+        <div class="col-md-6 col-sm-6 grid-item Laravel  PHP  Management">
           <a href="#small-dialog-18" class="work-content">
             <div class="portfolio-item rounded shadow-dark">
               <div class="details">
@@ -98,7 +98,7 @@
           </div>
         </div>
 
-        <div class="col-md-5 col-sm-6 grid-item Laravel  Classified  Admin">
+        <div class="col-md-6 col-sm-6 grid-item Laravel  Classified  Admin">
           <a href="#small-dialog-13" class="work-content">
             <div class="portfolio-item rounded shadow-dark">
               <div class="details">
@@ -121,7 +121,7 @@
           </div>
         </div>
 
-        <div class="col-md-5 col-sm-6 grid-item VueJS  PWA  SPA">
+        <div class="col-md-6 col-sm-6 grid-item VueJS  PWA  SPA">
           <a href="/projects/thumbs/12.webp?1593802772" class="work-image">
             <div class="portfolio-item rounded shadow-dark">
               <div class="details">
@@ -137,7 +137,7 @@
           </a>
         </div>
 
-        <div class="col-md-5 col-sm-6 grid-item Laravel  Admin  REST API">
+        <div class="col-md-6 col-sm-6 grid-item Laravel  Admin  REST API">
           <a href="/projects/thumbs/17.jpg?1594763325" class="work-image">
             <div class="portfolio-item rounded shadow-dark">
               <div class="details">
@@ -153,7 +153,7 @@
           </a>
         </div>
 
-        <div class="col-md-5 col-sm-6 grid-item Laravel  Company">
+        <div class="col-md-6 col-sm-6 grid-item Laravel  Company">
           <a href="#small-dialog-6" class="work-content">
             <div class="portfolio-item rounded shadow-dark">
               <div class="details">
@@ -176,7 +176,7 @@
           </div>
         </div>
 
-        <div class="col-md-5 col-sm-6 grid-item Laravel  Education  LMS">
+        <div class="col-md-6 col-sm-6 grid-item Laravel  Education  LMS">
           <a href="#small-dialog-5" class="work-content">
             <div class="portfolio-item rounded shadow-dark">
               <div class="details">
@@ -199,7 +199,7 @@
           </div>
         </div>
 
-        <div class="col-md-5 col-sm-6 grid-item Laravel  Backend  Delivery">
+        <div class="col-md-6 col-sm-6 grid-item Laravel  Backend  Delivery">
           <a href="/projects/thumbs/15.jpg?1594669253" class="work-image">
             <div class="portfolio-item rounded shadow-dark">
               <div class="details">
@@ -215,7 +215,7 @@
           </a>
         </div>
 
-        <div class="col-md-5 col-sm-6 grid-item Laravel  Backend  Islamic">
+        <div class="col-md-6 col-sm-6 grid-item Laravel  Backend  Islamic">
           <a href="/projects/thumbs/14.jpg?1594668766" class="work-image">
             <div class="portfolio-item rounded shadow-dark">
               <div class="details">
@@ -231,7 +231,7 @@
           </a>
         </div>
 
-        <div class="col-md-5 col-sm-6 grid-item Laravel  Finance">
+        <div class="col-md-6 col-sm-6 grid-item Laravel  Finance">
           <a href="/projects/thumbs/10.webp?1593801410" class="work-image">
             <div class="portfolio-item rounded shadow-dark">
               <div class="details">
@@ -247,7 +247,7 @@
           </a>
         </div>
 
-        <div class="col-md-5 col-sm-6 grid-item Wordpress  Education  Organization">
+        <div class="col-md-6 col-sm-6 grid-item Wordpress  Education  Organization">
           <a href="#small-dialog-11" class="work-content">
             <div class="portfolio-item rounded shadow-dark">
               <div class="details">
@@ -270,7 +270,7 @@
           </div>
         </div>
 
-        <div class="col-md-5 col-sm-6 grid-item Laravel Organization Management">
+        <div class="col-md-6 col-sm-6 grid-item Laravel Organization Management">
           <a href="#small-dialog-16" class="work-content">
             <div class="portfolio-item rounded shadow-dark">
               <div class="details">
@@ -294,9 +294,9 @@
         </div>
       </div>
 
-      <div class="load-more text-center mt-4">
-        <a href="/projects" class="btn btn-default"><i class="fas fa-spinner"></i> View more</a>
-      </div>
+<!--      <div class="load-more text-center mt-4">-->
+<!--        <a href="/projects" class="btn btn-default"><i class="fas fa-spinner"></i> View more</a>-->
+<!--      </div>-->
     </div>
   </section>
 </template>

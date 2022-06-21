@@ -19,21 +19,9 @@
     <!-- main layout -->
     <main class="content-3">
 
-      <Intro />
+      <NuxtPage />
 
-      <About />
-
-      <Service />
-
-      <Experience />
-
-      <Award />
-
-      <Portfolio />
-
-      <Testimonial />
-
-      <div class="spacer" data-height="96" style="margin-top: 96px"></div>
+      <div class="spacer" data-height="96"></div>
 
       <footer class="footer">
         <div class="container">
@@ -47,11 +35,9 @@
 
   </div>
 </template>
+
 <script setup>
 useHead({
-  //titleTemplate: 'Arafat Islam', // or, title => `My App - ${title}`
-  viewport: 'width=device-width, initial-scale=1, maximum-scale=1',
-  charset: 'utf-8',
   title: 'I\'m Arafat!',
   meta: [
     { name: 'description', content: 'I am Arafat, Full Stack Web Developer having more than 7 years of experience.' }
@@ -71,36 +57,34 @@ useHead({
   ],
   script: [
     { type: 'text/javascript', src: '/assets/js/jquery-1.12.3.min.js', body: true },
-    { type: 'text/javascript', src: '/assets/js/jquery.easing.min.js', body: true },
-    { type: 'text/javascript', src: '/assets/js/jquery.waypoints.min.js', body: true },
-    { type: 'text/javascript', src: '/assets/js/jquery.counterup.min.js', body: true },
-    { type: 'text/javascript', src: '/assets/js/popper.min.js', body: true },
-    { type: 'text/javascript', src: '/assets/js/bootstrap.min.js', body: true },
-    { type: 'text/javascript', src: '/assets/js/isotope.pkgd.min.js', body: true },
-    { type: 'text/javascript', src: '/assets/js/infinite-scroll.min.js', body: true },
-    { type: 'text/javascript', src: '/assets/js/imagesloaded.pkgd.min.js', body: true },
-    { type: 'text/javascript', src: '/assets/js/slick.min.js', body: true },
-    //{ type: 'text/javascript', src: '/assets/js/contact.js', body: true },
-    //{ type: 'text/javascript', src: '/assets/js/validator.js', body: true },
-    { type: 'text/javascript', src: '/assets/js/wow.min.js', body: true },
-    { type: 'text/javascript', src: '/assets/js/morphext.min.js', body: true },
-    { type: 'text/javascript', src: '/assets/js/parallax.min.js', body: true },
-    { type: 'text/javascript', src: '/assets/js/jquery.magnific-popup.min.js', body: true },
-    { type: 'text/javascript', src: '/assets/js/custom.js', body: true },
+    { type: 'text/javascript', src: '/assets/js/jquery.easing.min.js', defer: true },
+    { type: 'text/javascript', src: '/assets/js/jquery.waypoints.min.js', defer: true },
+    { type: 'text/javascript', src: '/assets/js/jquery.counterup.min.js', defer: true },
+    { type: 'text/javascript', src: '/assets/js/popper.min.js', defer: true },
+    { type: 'text/javascript', src: '/assets/js/bootstrap.min.js', defer: true },
+    { type: 'text/javascript', src: '/assets/js/isotope.pkgd.min.js', defer: true },
+    { type: 'text/javascript', src: '/assets/js/infinite-scroll.min.js', defer: true },
+    { type: 'text/javascript', src: '/assets/js/imagesloaded.pkgd.min.js', defer: true },
+    { type: 'text/javascript', src: '/assets/js/slick.min.js', defer: true },
+    //{ type: 'text/javascript', src: '/assets/js/contact.js', defer: true },
+    //{ type: 'text/javascript', src: '/assets/js/validator.js', defer: true },
+    { type: 'text/javascript', src: '/assets/js/wow.min.js', defer: true },
+    { type: 'text/javascript', src: '/assets/js/morphext.min.js', defer: true },
+    { type: 'text/javascript', src: '/assets/js/parallax.min.js', defer: true },
+    { type: 'text/javascript', src: '/assets/js/jquery.magnific-popup.min.js', defer: true },
+    { type: 'text/javascript', src: '/assets/js/custom.js', defer: true },
   ],
 })
 </script>
 <script>
 import NavBar from "./components/NavBar";
-import Intro from "./components/sections/Intro";
-import About from "./components/sections/About";
-import Service from "./components/sections/Service";
-import Experience from "./components/sections/Experience";
-import Award from "./components/sections/Award";
-import Portfolio from "./components/sections/Portfolio";
-import Testimonial from "./components/sections/Testimonial";
-import Contact from "./components/sections/Contact";
+
 export default {
-  components: {Contact, Testimonial, Portfolio, Award, Experience, Service, About, Intro, NavBar}
+  components: {NavBar},
+
+  mounted() {
+    window.$ = window.jQuery;
+    console.log(window.jQuery);
+  },
 }
 </script>
