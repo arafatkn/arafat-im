@@ -3,9 +3,10 @@
   "scripts": {
     "dev": "nuxi dev",
     "build": "nuxi build",
+    "generate": "nuxi generate",
     "start": "node .output/server/index.mjs"
   },
   "devDependencies": {
-    "nuxt3": "latest"
+    "nuxt3": "^3.0.0-27506322.90da56a"
   }
 }

@@ -17,9 +17,9 @@
             <div class="row">
               <div class="col-md-6">
 
-                <p>I am Arafat Islam, full stck web developer from Dhaka, Bangladesh. I have rich experience in laravel and vuejs based web application development, also I am good at WordPress.</p>
+                <p>I am Arafat Islam, full stack web developer from Dhaka, Bangladesh. I have rich experience in laravel and vuejs based web application development, also I am good at WordPress.</p>
                 <div class="mt-3">
-                  <a href="/files/Resume_of_arafatkn.pdf" class="btn btn-default">Download Resume</a>
+                  <a href="/files/Resume_of_Arafat.pdf" class="btn btn-default">Download Resume</a>
                 </div>
                 <div class="spacer d-md-none d-lg-none" data-height="30"></div>
               </div>

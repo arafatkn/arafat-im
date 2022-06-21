@@ -33,9 +33,7 @@
 
       <Testimonial />
 
-      <Contact />
-
-      <div class="spacer" data-height="96"></div>
+      <div class="spacer" data-height="96" style="margin-top: 96px"></div>
 
       <footer class="footer">
         <div class="container">
@@ -51,9 +49,10 @@
 </template>
 <script setup>
 useHead({
-  titleTemplate: 'Arafat Islam', // or, title => `My App - ${title}`
+  //titleTemplate: 'Arafat Islam', // or, title => `My App - ${title}`
   viewport: 'width=device-width, initial-scale=1, maximum-scale=1',
   charset: 'utf-8',
+  title: 'I\'m Arafat!',
   meta: [
     { name: 'description', content: 'I am Arafat, Full Stack Web Developer having more than 7 years of experience.' }
   ],
@@ -81,8 +80,8 @@ useHead({
     { type: 'text/javascript', src: '/assets/js/infinite-scroll.min.js', body: true },
     { type: 'text/javascript', src: '/assets/js/imagesloaded.pkgd.min.js', body: true },
     { type: 'text/javascript', src: '/assets/js/slick.min.js', body: true },
-    { type: 'text/javascript', src: '/assets/js/contact.js', body: true },
-    { type: 'text/javascript', src: '/assets/js/validator.js', body: true },
+    //{ type: 'text/javascript', src: '/assets/js/contact.js', body: true },
+    //{ type: 'text/javascript', src: '/assets/js/validator.js', body: true },
     { type: 'text/javascript', src: '/assets/js/wow.min.js', body: true },
     { type: 'text/javascript', src: '/assets/js/morphext.min.js', body: true },
     { type: 'text/javascript', src: '/assets/js/parallax.min.js', body: true },
