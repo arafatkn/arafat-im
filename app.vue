@@ -47,7 +47,7 @@ useHead({
   },
   link: [
     { rel: 'shortcut icon', type: 'image/x-icon', href: '/assets/images/arafatkn.png' },
-    { rel: 'stylesheet', type: 'text/css', href: '/assets/css/bootstrap.min.css', media: 'all' },
+    //{ rel: 'stylesheet', type: 'text/css', href: '/assets/css/bootstrap.min.css', media: 'all' },
     { rel: 'stylesheet', type: 'text/css', href: '/assets/css/all.min.css', media: 'all' },
     { rel: 'stylesheet', type: 'text/css', href: '/assets/css/simple-line-icons.css', media: 'all' },
     { rel: 'stylesheet', type: 'text/css', href: '/assets/css/slick.css', media: 'all' },
@@ -56,12 +56,11 @@ useHead({
     { rel: 'stylesheet', type: 'text/css', href: '/assets/css/style.css', media: 'all' },
   ],
   script: [
-    //{ type: 'text/javascript', src: '/assets/js/jquery-1.12.3.min.js', body: true },
     { type: 'text/javascript', src: '/assets/js/jquery.easing.min.js', defer: true },
     { type: 'text/javascript', src: '/assets/js/jquery.waypoints.min.js', defer: true },
     { type: 'text/javascript', src: '/assets/js/jquery.counterup.min.js', defer: true },
-    { type: 'text/javascript', src: '/assets/js/popper.min.js', defer: true },
-    { type: 'text/javascript', src: '/assets/js/bootstrap.min.js', defer: true },
+    //{ type: 'text/javascript', src: '/assets/js/popper.min.js', defer: true },
+    //{ type: 'text/javascript', src: '/assets/js/bootstrap.min.js', defer: true },
     { type: 'text/javascript', src: '/assets/js/isotope.pkgd.min.js', defer: true },
     { type: 'text/javascript', src: '/assets/js/infinite-scroll.min.js', defer: true },
     { type: 'text/javascript', src: '/assets/js/imagesloaded.pkgd.min.js', defer: true },
@@ -78,6 +77,9 @@ useHead({
 </script>
 <script>
 import jQuery from 'jquery';
+import * as bootstrap from 'bootstrap';
+import * as Popper from 'popper.js'
+import 'bootstrap/dist/css/bootstrap.css';
 import NavBar from "./components/NavBar";
 
 export default {
@@ -85,6 +87,8 @@ export default {
 
   mounted() {
     window.$ = window.jQuery = jQuery;
+    window.bootstrap = bootstrap;
+    window.Popper = Popper;
   },
 }
 </script>

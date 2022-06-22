@@ -10,6 +10,8 @@
     "nuxt3": "^3.0.0-27506322.90da56a"
   },
   "dependencies": {
-    "jquery": "1.12.3"
+    "bootstrap": "4.2.1",
+    "jquery": "1.12.3",
+    "popper.js": "^1.16.1"
   }
 }
