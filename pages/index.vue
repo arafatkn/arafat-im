@@ -33,10 +33,5 @@ import Contact from "../components/sections/Contact";
 
 export default {
   components: {Contact, Testimonial, Portfolio, Award, Experience, Service, About, Intro, NavBar},
-
-  mounted() {
-    window.$ = window.jQuery;
-    console.log(window.jQuery);
-  },
 }
 </script>

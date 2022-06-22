@@ -56,7 +56,7 @@ useHead({
     { rel: 'stylesheet', type: 'text/css', href: '/assets/css/style.css', media: 'all' },
   ],
   script: [
-    { type: 'text/javascript', src: '/assets/js/jquery-1.12.3.min.js', body: true },
+    //{ type: 'text/javascript', src: '/assets/js/jquery-1.12.3.min.js', body: true },
     { type: 'text/javascript', src: '/assets/js/jquery.easing.min.js', defer: true },
     { type: 'text/javascript', src: '/assets/js/jquery.waypoints.min.js', defer: true },
     { type: 'text/javascript', src: '/assets/js/jquery.counterup.min.js', defer: true },
@@ -77,14 +77,14 @@ useHead({
 })
 </script>
 <script>
+import jQuery from 'jquery';
 import NavBar from "./components/NavBar";
 
 export default {
   components: {NavBar},
 
   mounted() {
-    window.$ = window.jQuery;
-    console.log(window.jQuery);
+    window.$ = window.jQuery = jQuery;
   },
 }
 </script>
