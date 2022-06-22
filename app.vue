@@ -47,20 +47,15 @@ useHead({
   },
   link: [
     { rel: 'shortcut icon', type: 'image/x-icon', href: '/assets/images/arafatkn.png' },
-    //{ rel: 'stylesheet', type: 'text/css', href: '/assets/css/bootstrap.min.css', media: 'all' },
-    { rel: 'stylesheet', type: 'text/css', href: '/assets/css/all.min.css', media: 'all' },
     { rel: 'stylesheet', type: 'text/css', href: '/assets/css/simple-line-icons.css', media: 'all' },
     { rel: 'stylesheet', type: 'text/css', href: '/assets/css/slick.css', media: 'all' },
     { rel: 'stylesheet', type: 'text/css', href: '/assets/css/animate.css', media: 'all' },
     { rel: 'stylesheet', type: 'text/css', href: '/assets/css/magnific-popup.css', media: 'all' },
-    { rel: 'stylesheet', type: 'text/css', href: '/assets/css/style.css', media: 'all' },
   ],
   script: [
     { type: 'text/javascript', src: '/assets/js/jquery.easing.min.js', defer: true },
     { type: 'text/javascript', src: '/assets/js/jquery.waypoints.min.js', defer: true },
     { type: 'text/javascript', src: '/assets/js/jquery.counterup.min.js', defer: true },
-    //{ type: 'text/javascript', src: '/assets/js/popper.min.js', defer: true },
-    //{ type: 'text/javascript', src: '/assets/js/bootstrap.min.js', defer: true },
     { type: 'text/javascript', src: '/assets/js/isotope.pkgd.min.js', defer: true },
     { type: 'text/javascript', src: '/assets/js/infinite-scroll.min.js', defer: true },
     { type: 'text/javascript', src: '/assets/js/imagesloaded.pkgd.min.js', defer: true },
@@ -69,7 +64,6 @@ useHead({
     //{ type: 'text/javascript', src: '/assets/js/validator.js', defer: true },
     { type: 'text/javascript', src: '/assets/js/wow.min.js', defer: true },
     { type: 'text/javascript', src: '/assets/js/morphext.min.js', defer: true },
-    { type: 'text/javascript', src: '/assets/js/parallax.min.js', defer: true },
     { type: 'text/javascript', src: '/assets/js/jquery.magnific-popup.min.js', defer: true },
     { type: 'text/javascript', src: '/assets/js/custom.js', defer: true },
   ],
@@ -81,6 +75,8 @@ import * as bootstrap from 'bootstrap';
 import * as Popper from 'popper.js';
 import Parallax from 'parallax-js';
 import 'bootstrap/dist/css/bootstrap.css';
+import '/assets/css/all.min.css';
+import '/assets/css/style.css';
 import NavBar from "./components/NavBar";
 
 export default {
