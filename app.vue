@@ -78,7 +78,8 @@ useHead({
 <script>
 import jQuery from 'jquery';
 import * as bootstrap from 'bootstrap';
-import * as Popper from 'popper.js'
+import * as Popper from 'popper.js';
+import Parallax from 'parallax-js';
 import 'bootstrap/dist/css/bootstrap.css';
 import NavBar from "./components/NavBar";
 
@@ -89,6 +90,7 @@ export default {
     window.$ = window.jQuery = jQuery;
     window.bootstrap = bootstrap;
     window.Popper = Popper;
+    window.Parallax = Parallax;
   },
 }
 </script>
